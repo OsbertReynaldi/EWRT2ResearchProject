@@ -298,3 +298,12 @@ svg:hover {
   color: crimson;
   font-size: 10vh;
 }
+
+.image-citation {
+  color: crimson;
+}
+
+.analysisHeader {
+  color: peachpuff;
+  font-size: 5vh;
+}
