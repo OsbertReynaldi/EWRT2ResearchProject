@@ -1,0 +1,300 @@
+body {
+  z-index: 10;
+  background: linear-gradient(to bottom, black, black) fixed;
+  /*background-color: white;*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: grey;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: greenyellow;
+  text-decoration: none;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  color: greenyellow fixed;
+  fill: greenyellow;
+  padding: 10px 15px;
+  border: none;
+  max-width: 7.5%;
+}
+
+.menu {
+  fill: yellow;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+svg {
+  width: 30px;
+  height: 30px;
+}
+svg:hover {
+  fill: greenyellow;
+}
+
+#landing-page {
+  height: 100%;
+  width: 100%;
+}
+
+.Title {
+  font-size: 10vh;
+  color: yellow;
+}
+
+.body-text {
+  font-size: 3vh;
+  color: white;
+}
+
+.yearbook {
+  margin-top: 5%;
+  margin-left: 40%;
+  width: 20vw;
+  transition: ease-out 0.2s;
+}
+
+.yearbook:hover {
+  animation: rotation 1s alternate;
+  transition: ease-in 0.2s;
+  transform: scale(1.1);
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.movie-poster {
+  height: 110%;
+}
+.cause-poster {
+  height: 50vh;
+  margin-bottom: 7.5%;
+}
+.citation {
+  font-size: 1vh;
+  color: white;
+}
+.citation-box {
+  margin-bottom: 5%;
+}
+
+#link-terminal {
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  margin-top: 15%;
+}
+
+#link-terminal h1 {
+  font-size: 7vh;
+  margin-left: 6%;
+  align-items: center;
+  text-align: left;
+  color: greenyellow;
+  padding-bottom: 2%;
+}
+
+.project1234 {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+
+.project1234 img {
+  width: 30vh;
+  height: 30vh;
+  display: block;
+  margin: auto;
+  border-radius: 150px;
+  box-shadow: 5px 5px 5px 5px none;
+}
+
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover,
+.hvr-grow-shadow:focus,
+.hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.project-desc {
+  margin-top: 1%;
+  margin-left: 7%;
+  margin-right: 6%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+
+.desc1 {
+  color: white;
+  font-size: 16px;
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.desc2 {
+  color: white;
+  font-size: 16px;
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.desc3 {
+  color: black;
+  font-size: 16px;
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.desc4 {
+  color: black;
+  font-size: 16px;
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: auto;
+  padding-right: 20px;
+}
+
+.desc-title {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+
+.desc {
+  text-align: center;
+}
+
+#projects button {
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  position: absolute;
+  top: 290em;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#works-cited {
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+}
+
+#works-cited h1 {
+  font-size: 7vh;
+  margin-left: 6%;
+  align-items: center;
+  text-align: left;
+  color: crimson;
+  padding-bottom: 2%;
+}
+
+#works-cited p {
+  font-size: 2vh;
+  color: white;
+}
+
+.causesh1 {
+  color: yellow;
+  font-size: 10vh;
+}
+
+.effectsh1 {
+  color: greenyellow;
+  font-size: 10vh;
+}
+
+.analysish1 {
+  color: crimson;
+  font-size: 10vh;
+}
