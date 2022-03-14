@@ -93,7 +93,7 @@ svg:hover {
 }
 
 .Title {
-  font-size: 10vh;
+  font-size: 6vh;
   color: yellow;
 }
 
@@ -137,6 +137,36 @@ svg:hover {
 }
 .citation-box {
   margin-bottom: 5%;
+}
+
+.by {
+  font-size: 3vh;
+  color: yellow;
+}
+
+#abstract {
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  margin-top: 15%;
+}
+
+.abstract {
+  color: white;
+}
+
+#introduction {
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  margin-top: 15%;
+}
+
+#background {
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  margin-top: 15%;
 }
 
 #link-terminal {
@@ -306,4 +336,8 @@ svg:hover {
 .analysisHeader {
   color: peachpuff;
   font-size: 5vh;
+}
+
+.pie-chart {
+  height: 250px;
 }
